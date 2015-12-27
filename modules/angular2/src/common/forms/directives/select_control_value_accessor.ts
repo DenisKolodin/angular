@@ -44,7 +44,7 @@ export class NgSelectOption {
   bindings: [SELECT_VALUE_ACCESSOR]
 })
 export class SelectControlValueAccessor implements ControlValueAccessor {
-  value: string;
+  value: any;
   onChange = (_) => {};
   onTouched = () => {};
 
